@@ -1,0 +1,18 @@
+{
+  "name": "upaguru-copilot",
+  "version": "1.0.0",
+  "description": "LLM-powered educational copilot with Spring Boot backend",
+  "scripts": {
+    "start:all": "./DevOps/Local-Dev/start-all.sh",
+    "stop:all": "./DevOps/Local-Dev/stop-all.sh",
+    "start:postgres": "./DevOps/Local-Dev/start-tech.sh postgres",
+    "start:redis": "./DevOps/Local-Dev/start-tech.sh redis",
+    "start:mongodb": "./DevOps/Local-Dev/start-tech.sh mongodb",
+    "dev:run": "mvn spring-boot:run",
+    "build": "mvn clean install",
+    "format": "echo '🔧 Format: Use an IDE or Spotless Plugin if configured'"
+  },
+  "keywords": ["springboot", "openai", "copilot", "llm", "education"],
+  "author": "Aruna Kishore",
+  "license": "Apache-2.0"
+}
