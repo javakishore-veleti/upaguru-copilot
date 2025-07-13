@@ -31,8 +31,8 @@ server:
 openai:
   api:
     key: ${OPENAI_API_KEY:sk-your-key-here}
+    url: ${OPENAI_API_URL:https://api.openai.com/v1/chat/completions}
   model: ${OPENAI_MODEL:gpt-4}
-
 # Swagger / SpringDoc OpenAPI
 springdoc:
   api-docs:

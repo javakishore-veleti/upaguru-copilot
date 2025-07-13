@@ -14,4 +14,7 @@ public class OpenAiConfig {
 
     @Value("${openai.model:gpt-4}")
     private String model;
+
+    @Value("${openai.api.url:https://api.openai.com/v1/chat/completions}")
+    private String apiUrl;
 }

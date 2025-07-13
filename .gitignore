@@ -24,3 +24,5 @@ hs_err_pid*
 replay_pid*
 /.env
 /target/
+# Refer application-local-template.yml and create application-local.yml file since this contains OpenAPI token key
+/src/main/resources/application-local.yml
