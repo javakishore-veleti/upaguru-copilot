@@ -43,3 +43,30 @@ This project is licensed under the Apache 2.0 License.
 ## Contact
 
 For collaboration or inquiries, please reach out to the Upaguru team.
+
+## When To use UpaGuru-CoPilot - Action & Response Generation
+
+- When you want to generate natural language output or code.
+
+- When you’re acting on a processed prompt and need a response, suggestion, or workflow plan.
+
+- When the agent must take decisions or provide step-wise guidance.
+
+### Typical Inputs
+- Cleaned, enriched, summarized prompts.
+
+- Context from mind or labels from sense.
+
+### Typical Outputs
+- Natural language answer.
+
+- Multi-step plan, task list.
+
+- Code snippet, command line, or instructions.
+
+### Example Use Cases
+- Provide explanation or advice based on recalled memory.
+
+- Generate an email or a document section.
+
+- Suggest next best action or step in a task.
